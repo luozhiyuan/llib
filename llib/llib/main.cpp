@@ -5,6 +5,6 @@
 int main() {
     llib::test::test_curry_function();
     llib::test::test_is_valid();
-    llib::experiment::test::test_integral_type();
+    llib::experiment::test::test_case();
     return 0;
 }

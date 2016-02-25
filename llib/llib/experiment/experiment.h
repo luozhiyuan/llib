@@ -3,6 +3,7 @@
 
 namespace llib {
     namespace experiment {
+#ifdef INCOMPLETE_CODE
         namespace ecs {
             template<typename Component>
             struct component_handle {
@@ -75,6 +76,11 @@ namespace llib {
                 w.remove_entity(entity_handle);
                 sg.update();
             }
+        }
+    }
+#endif
+        namespace test {
+            void test_case();
         }
     }
 }
